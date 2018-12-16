@@ -23,7 +23,7 @@ namespace TechJobs.ViewModels
         public int LocationID { get; set; }
 
         [Required]
-        [Display(Name = "CoreCompetency ")]
+        [Display(Name = "Skill")]
         public int CoreCompetencyID { get; set; }
 
         [Required]
@@ -82,5 +82,5 @@ namespace TechJobs.ViewModels
          
             }
         }
-    }
 }
+
